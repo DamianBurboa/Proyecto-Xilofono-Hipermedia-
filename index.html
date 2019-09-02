@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
     <title>Proyecto primer parcial - Xilofono</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/jquery-3.1.1.js" type="text/javascript"></script> 
+
+	<meta charset="utf-8">
+    
+    <link rel="stylesheet" href="index.css"> 
 </head>
 
 <body>
-    <div class="fondo">
-        <div class="note">Do</div>
-        <div class="note">Re</div>
-        <div class="note">Mi</div>
-        <div class="note">Fa</div>
-        <div class="note">Sol</div>
-        <div class="note">La</div>
-        <div class="note">Si</div>
-        <div class="note">Do</div>
-    </div>
-    <script type="text/javascript" src="js/main.js"></script>
-</body>
+        <button data-key="1" data-note="Do">Do</button>
+        <button data-key="2" data-note="Re">Re</button>
+        <button data-key="3" data-note="Mi">Mi</button>
+        <button data-key="4" data-note="Fa">Fa</button>
+        <button data-key="5" data-note="Sol">Sol</button>
+        <button data-key="6" data-note="La">La</button>
+        <button data-key="7" data-note="Si">Si</button>
+        <button data-key="8" data-note="Do2">Do</button>
+
+        <audio id="audioDo" src="audio/1Do.mp3"></audio>
+        <audio id="audioRe" src="audio/2Re.mp3"></audio>
+        <audio id="audioMi" src="audio/3Mi.mp3"></audio>
+        <audio id="audioFa" src="audio/4Fa.mp3"></audio>
+        <audio id="auidoSol" src="audio/5Sol.mp3"></audio>
+        <audio id="audioLa" src="audio/6La.mp3"></audio>
+        <audio id="audioSi" src="audio/7Si.mp3"></audio>
+        <audio id="audioDo2" src="audio/8Do.mp3"></audio>
+
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
+   </html> 
